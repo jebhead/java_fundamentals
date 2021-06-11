@@ -1,5 +1,7 @@
 # CodingNomads Java Fundamentals
 
+Jeb will use these git projects to work through his CodingNomads course.
+
 This project contains a variety of textbook examples and labs focused on Java labs_examples.fundamentals.
 
 ## Getting Started
