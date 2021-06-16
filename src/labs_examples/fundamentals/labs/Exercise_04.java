@@ -29,6 +29,8 @@ public class Exercise_04 {
         System.out.println("whether true or not is " + tf);
         System.out.println("the letter of the day is: " + letr);
         System.out.println("to be more precise ... : " + r);
+        System.out.println("i + j = " + i + j);
+
 
 
 
