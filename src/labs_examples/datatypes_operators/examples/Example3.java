@@ -11,6 +11,9 @@ class CharArithDemo {
         ch++; // increment ch
         System.out.println("ch is now " + ch);
 
+        ch++;
+        System.out.println("ch is now " + ch);
+
         ch = 90; // give ch the value Z
         System.out.println("ch is now " + ch);
     }
