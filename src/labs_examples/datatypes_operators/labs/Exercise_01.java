@@ -18,10 +18,6 @@ public class Exercise_01 {
         char c = 'B';
 
         System.out.println("Here they are: " + i + " , " + d + " , " + f + " , " + c);
-
-
-
-
     }
 }
 

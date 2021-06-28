@@ -37,8 +37,6 @@ class RelationalOperators {
         if (a != b) {
             System.out.println("a is not equal to b");
         }
-
     }
-
 }
 

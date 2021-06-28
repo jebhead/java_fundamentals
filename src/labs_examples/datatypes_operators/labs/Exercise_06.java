@@ -33,8 +33,5 @@ public class Exercise_06 {
         System.out.println("Volume = " + volume);
         System.out.println("Surface = " + surface);
         System.out.println("Surface = " + surface2);
-
-
-
     }
 }

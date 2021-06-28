@@ -30,6 +30,5 @@ public class Exercise_02 {
         double d2 = 10.2;
         int i2 = (int) d2;
         System.out.println("i2 = " + i2);
-
     }
 }

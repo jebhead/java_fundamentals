@@ -13,10 +13,9 @@ public class NumGuess_2 {
         int n = scanner.nextInt();
         System.out.println("n = " + n);
 
-        for(int count = 0; count <= 20; count = count + 1){
-            if(count == n)
-            System.out.println("This is n: " + count);
+        for (int c = 0; c <= 20; c = c + 1) {
+            if (c == n)
+                System.out.println("This is n: " + c);
         }
-
-            }
-        }
+    }
+}

@@ -22,7 +22,5 @@ class ArithmeticOperators {
         System.out.println("z + v = " + (z+v));
         System.out.println("c - v = " + (c-v));
         System.out.println("w mod r = " + w % r);
-
     }
-
 }

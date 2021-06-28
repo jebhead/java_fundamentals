@@ -31,10 +31,6 @@ class LogicalOperators {
         if (a & (!b)){
             System.out.println("a is true but not b");
         }
-
-        // write your code below
-
     }
-
 }
 
