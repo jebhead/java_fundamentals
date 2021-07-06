@@ -14,22 +14,27 @@ package labs_examples.arrays.labs;
  */
 public class Exercise_06 {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         int[] nums = {45, 87, 62, 99, 1, 42, 12};
 
-        int temp;
+        int temp = 0;
 
-        // Question: in the for loop below, why do we divide "nums.length" by 2?
-        for(int i = 0; i < nums.length / 2; i++){
-            // swap elements at indexes in array
-            // you have two indices readily available for you to use "i" (which increments) and "nums.length"
-            // you've also got this "temp" variable you can use to hold a value temporarily
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print(nums[i] + " ");
         }
-        System.out.print("Contents of array after for loop - ");
-        // print each element of the array to verify reverse order
-        for(int i : nums){
-            System.out.print(i + " ");
+        System.out.println();
+
+        for (int i = 0; i < nums.length / 2; i++) {
+
+            temp = nums[i];
+            nums[i] = nums[nums.length - 1 - i];
+            nums[nums.length - 1 - i] = temp;
+        }
+
+            for(int j = 0; j < nums.length; j++){
+                System.out.print(nums[j] + " ");
+
+
         }
     }
-
 }

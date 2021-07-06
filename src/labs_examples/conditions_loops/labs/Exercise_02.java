@@ -41,5 +41,19 @@ public class Exercise_02 {
         }else if(number == 8){
             System.out.println("Other");
         }
+
+        if(number > 1){
+            if(number > 2){
+                if(number > 3){
+
+                }else{
+                    System.out.println("wednesday");
+                }
+
+            }else{
+                System.out.println("tuesday");
+            }
+        }else
+            System.out.println("monday");
     }
 }
