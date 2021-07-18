@@ -21,7 +21,7 @@ public class Hi_Lo_2 {
         }
         int[] answer = new int[2];
         answer = maxMin(list);
-        System.out.println(answer[0] + "  " + answer[1]);
+        System.out.println("the max is " + answer[0] + "  and the min is " + answer[1]);
 
     }
 
