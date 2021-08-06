@@ -11,54 +11,70 @@ public class Two_Divisors {
         //        divisible by both divisor1 and divisor2. Then return this ArrayList. After calling this method, print out the
         //        length of the returned list
 
-        int maxNum = 108;
+        int maxNum = 50;
         int divisor1 = 9;
         int divisor2 = 6;
 
         System.out.println(maxNum + " " + divisor1 + " " + divisor2);
 
         ArrayList<Integer> commons = findCommon(maxNum, divisor1, divisor2);
+        ArrayList<Integer> commons2 = findCommon2(maxNum, divisor1, divisor2);
 
         System.out.println(commons);
+        System.out.println("******");
+        System.out.println(commons2);
     }
+    public static ArrayList<Integer> findCommon2(int maxNum, int divisor1, int divisor2) {
 
+        ArrayList<Integer> common = new ArrayList();
+
+        for(int i = 0; i <= maxNum; i++) {
+
+            if(i % divisor1 == 0 && i % divisor2 == 0) {
+                common.add(i);
+
+            }
+        }
+        return common;
+
+    }
     public static ArrayList<Integer> findCommon(int maxNum, int divisor1, int divisor2) {
 
-        int[] toMax = new int[maxNum+1];
+        int[] toMax = new int[maxNum + 1];
         int i = 1;
 
         while (i <= maxNum) {
 
             toMax[i] = i;
             if (maxNum < 55) {
-            System.out.print(toMax[i] + " ");
+                System.out.print(toMax[i] + " ");
             }
-            i=i+1;
+            i = i + 1;
         }
         System.out.println();
 
-        int[] maxDivs1 = new int[maxNum/divisor1+1];
+        int[] maxDivs1 = new int[maxNum / divisor1 + 1];
         maxDivs1[0] = divisor1;
         int d1 = 1;
         int i1 = 0;
 
-        while (i1 < maxNum/divisor1) {
+        while (i1 < maxNum / divisor1) {
 
-            maxDivs1[d1] = (d1+1) * divisor1;
+            maxDivs1[d1] = (d1 + 1) * divisor1;
             System.out.print(maxDivs1[i1] + " ");
             d1 = d1 + 1;
             i1++;
         }
         System.out.println();
 
-        int[] maxDivs2 = new int[maxNum/divisor2+1];
+        int[] maxDivs2 = new int[maxNum / divisor2 + 1];
         maxDivs2[0] = divisor2;
         int d2 = 1;
         int i2 = 0;
 
-        while (i2 < maxNum/divisor2) {
+        while (i2 < maxNum / divisor2) {
 
-            maxDivs2[d2] = (d2+1) * divisor2;
+            maxDivs2[d2] = (d2 + 1) * divisor2;
             System.out.print(maxDivs2[i2] + " ");
             d2 = d2 + 1;
             i2++;
@@ -68,7 +84,7 @@ public class Two_Divisors {
         ArrayList<Integer> factors = new ArrayList<>();
 
         for (int ndx = 0; ndx < maxNum; ndx++) {
-            if(toMax[ndx] % divisor1 == 0 && toMax[ndx] % divisor2 == 0) {
+            if (toMax[ndx] % divisor1 == 0 && toMax[ndx] % divisor2 == 0) {
                 factors.add(toMax[ndx]);
             }
         }

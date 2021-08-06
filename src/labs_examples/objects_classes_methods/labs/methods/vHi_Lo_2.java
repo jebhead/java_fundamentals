@@ -3,7 +3,7 @@ package labs_examples.objects_classes_methods.labs.methods;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Hi_Lo_2 {
+public class vHi_Lo_2 {
 
     public static void main(String[] args) {
 

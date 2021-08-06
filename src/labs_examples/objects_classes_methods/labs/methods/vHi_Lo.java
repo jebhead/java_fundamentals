@@ -3,7 +3,7 @@ package labs_examples.objects_classes_methods.labs.methods;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Hi_Lo {
+public class vHi_Lo {
 
 //    Write a method that will return a small array containing the highest and lowest numbers in a given numeric array,
 //    which is passed in as an argument

@@ -1,12 +1,12 @@
 package labs_examples.objects_classes_methods.labs.objects;
 
-public class Airplane {
+public class Airplane1 {
 
     int age;
     String mfg;
     String model;
-    int range;
-    int capacity;
+    double currentFuel;
+    double fuelCapacity;
     int speed;
     int gallonPerHour;
 
@@ -17,8 +17,8 @@ public class Airplane {
                 "age=" + age +
                 ", mfg='" + mfg + '\'' +
                 ", model='" + model + '\'' +
-                ", range=" + range +
-                ", capacity=" + capacity +
+                ", range=" + currentFuel +
+                ", capacity=" + fuelCapacity +
                 ", cruiseSpeed=" + speed +
                 '}';
     }

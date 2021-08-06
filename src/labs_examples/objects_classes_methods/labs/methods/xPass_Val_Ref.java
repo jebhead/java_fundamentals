@@ -2,7 +2,7 @@ package labs_examples.objects_classes_methods.labs.methods;
 
 import videos_source_code.classes.Test;
 
-public class Pass_Val_Ref {
+public class xPass_Val_Ref {
 
     //Demonstrate the difference between "pass by value" and "pass by reference"
 
@@ -25,10 +25,7 @@ public class Pass_Val_Ref {
         return x;
     }
 
-//    public static int changeObj(int obj1) {
-//
-//        int answer = obj1 + 5;
-//        return answer;
-//    }
 }
+
+
 

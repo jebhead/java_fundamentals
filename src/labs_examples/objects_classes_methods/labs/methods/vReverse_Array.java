@@ -2,7 +2,7 @@ package labs_examples.objects_classes_methods.labs.methods;
 
 import java.util.ArrayList;
 
-public class Reverse_Array {
+public class vReverse_Array {
 
     //Write a method that will reverse an array in place use only one extra temp variable. For this exercise you cannot
     //instantiate a second array. You must reverse the array in place using only one extra temp variable. Hint: this
@@ -23,9 +23,8 @@ public class Reverse_Array {
         System.out.println(list);
 
         System.out.println();
+
         int temp = 0;
-
-
 
         for (int i = 0; i < list.size() / 2; i++) {
 
