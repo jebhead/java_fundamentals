@@ -22,9 +22,10 @@ public class Reverse_Array {
 
         System.out.println(list);
 
+        System.out.println();
         int temp = 0;
 
-        System.out.println();
+
 
         for (int i = 0; i < list.size() / 2; i++) {
 

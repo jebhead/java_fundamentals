@@ -23,8 +23,8 @@ public class Hi_Lo {
             list.add(nums);
 
         }
-        int ansX = maxMin(list);
-        int ansN = minMax(list);
+        int ansN = maxMin(list);
+        int ansX = minMax(list);
 
         System.out.println(ansX + " " + ansN);
     }

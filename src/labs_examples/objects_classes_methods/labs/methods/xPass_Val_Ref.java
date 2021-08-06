@@ -25,7 +25,7 @@ public class Pass_Val_Ref {
         return x;
     }
 
-//    public static int changeObj(Test obj1) {
+//    public static int changeObj(int obj1) {
 //
 //        int answer = obj1 + 5;
 //        return answer;
