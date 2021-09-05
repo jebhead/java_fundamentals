@@ -11,6 +11,7 @@ class A {
 }
 
 class B extends A{
+
     int i = 20;
 }
 

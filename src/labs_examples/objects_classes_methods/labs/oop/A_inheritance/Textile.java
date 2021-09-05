@@ -270,12 +270,6 @@ class Braid {
     }
 }
 
-class B_Customer {
-
-
-}
-
-
 class B_Order {
 
     Braid braid;

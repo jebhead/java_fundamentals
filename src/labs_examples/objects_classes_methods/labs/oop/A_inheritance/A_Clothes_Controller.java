@@ -20,22 +20,23 @@ public class A_Clothes_Controller {
         Necklace n1 = new Necklace("NA", 123, "gold", "diamond");
 
         Outfit look1 = new Outfit(h1, p2, s2, shoe1, w1);
+        Outfit look2 = new Outfit(h2, p2, s1, shoe2, n1);
 
         System.out.println(look1.hat.getHeadSize());
-
         System.out.println(look1.pants.getWaist());
 
-        double lookCost = howMuch(look1.hat, look1.pants, look1.shirt, look1.shoes, look1.jewelry);
+        double lookCost1 = howMuch(look1.hat, look1.pants, look1.shirt, look1.shoes, look1.jewelry);
+        double lookCost2 = howMuch(look2.hat, look2.pants, look2.shirt, look2.shoes, look2.jewelry);
 
-        System.out.println("Look one costs "  + lookCost);
+        System.out.println("Look one costs " + lookCost1);
+        System.out.println("Look two costs " + lookCost2);
     }
 
-public static double howMuch(Hat hat, Pants pants, Shirt shirt, Shoes shoes, Jewelry jewelry) {
+    public static double howMuch(Hat hat, Pants pants, Shirt shirt, Shoes shoes, Jewelry jewelry) {
 
         double addUp = hat.getPrice() + pants.getPrice() + shirt.getPrice() + shoes.getPrice() + jewelry.getPrice();
         return addUp;
-}
-
+    }
 }
 
 
