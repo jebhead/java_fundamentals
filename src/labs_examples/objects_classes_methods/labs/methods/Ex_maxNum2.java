@@ -5,7 +5,7 @@ public class Ex_maxNum2 {
     public static void main(String[] args) {
 
         int[] nums = {5, 6, 3, 6, 8, 7, 2};
-        //int i = 0;
+
         int max = nums[0];
         System.out.println(nums[3]);
 

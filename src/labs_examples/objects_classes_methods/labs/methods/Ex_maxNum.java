@@ -39,11 +39,3 @@ public class Ex_maxNum {
     }
 }
 
-
-//        for (int element : list) {
-//            if (element > element + 1) {
-//                int mx = element;
-//                return mx;
-//            }
-//
-//        }
