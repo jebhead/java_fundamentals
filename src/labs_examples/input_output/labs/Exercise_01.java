@@ -1,5 +1,9 @@
 package labs_examples.input_output.labs;
 
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+
 /**
  * Input/Output Exercise 1: File input/output
  *
@@ -9,10 +13,3 @@ package labs_examples.input_output.labs;
  *
  */
 
-class Example {
-    public static void main(String[] args) {
-
-
-
-    }
-}
